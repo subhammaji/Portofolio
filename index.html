@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Subham Portofolio</title>
-
-    <link rel="icon" href="./favicon.ico">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Press+Start+2P&display=swap" rel="stylesheet">
+<title>Subham Portofolio</title>
+<link rel="icon" href="./favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Press+Start+2P&display=swap" rel="stylesheet">
 
 <style>
 
@@ -16,7 +14,7 @@ body
     margin: 0;
     background-image:url("https://i.gifer.com/758b.gif");
     background-repeat:no-repeat;
-      background-size: cover;
+    background-size: cover;
       
       
 }
@@ -43,7 +41,6 @@ a{
     right:0;
 }
 
-<!--commenting root>
 
 :root {                    
   --green: #00FF00;
@@ -122,16 +119,46 @@ fieldset
 }
 
 .name{
+
     font-family: 'Lobster', cursive;
     line-height: 100px;
     text-decoration:underline;
+    letter-spacing: 5px;
+    color: white;
+  text-shadow: 4px 3px 3px pink;
+    /* padding-left: 10px; */
 }
 
+.animation1
+{
+  /* bottom: 15%; */
+  position: absolute;
+  animation-iteration-count: infinite;
+  animation-name: run;
+  animation-duration: 10s;
+  animation-direction: alternate ;
+}
+
+@keyframes run 
+{
+  0% 
+  {
+    left: 0;
+    width:20%;
+  }
+  30% 
+  {
+    left: 10%;
+    width:10%;
+  }
+ }
 
 
 </style>
-
 </head>
+
+
+
 <body class="light-theme">
     
     <div class="red"></div>
@@ -144,36 +171,31 @@ fieldset
     <br>
     <br>
 
+    <div class="animation1">
     <img class="Subham1" src="https://media-exp1.licdn.com/dms/image/C5603AQFeCHYRiovLgg/profile-displayphoto-shrink_800_800/0/1634184691964?e=1648684800&v=beta&t=4YiCXFqgl23dY3Qe8vphX9EIjICDl-NvIMi9ADSM8Qg" alt="Subham Maji" width="20%">
-    <div>
-    <h2 class="name"style="color:cyan">SUBHAM MAJI</h2>
-                
-                
+    </div>
+
+    <div class>
+    <h2 class="name">SUBHAM MAJI</h2>
+           
                     
-                    <p style="color:goldenrod; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" ><em> Web Dev & Data Science enthusiast | Data Analysis</em></p>
-                    <strong style="color: pink;">Student of Computer Science and Engineering</strong><br><br>
-                    <strong><em><a href="https://kiit.ac.in" target="blank" style="color:crimson">Kalinga Institute of Industrial Technology</a></em>
-                    </strong>
+    <p style="color:goldenrod; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" ><em> Web Dev & Data Science enthusiast | Data Analysis</em></p>
+    <strong style="color: pink;">Student of Computer Science and Engineering</strong><br><br>
+    <strong><em><a href="https://kiit.ac.in" target="blank" style="color:crimson">Kalinga Institute of Industrial Technology</a></em>
+    </strong>
  
     </div>
 
     <br><br><br><br><br><br><br><br>
 
-        <audio controls
-        source src="./Resume_Record.m4a" type="" autoplay> 
-        </audio>
-        <br>
-
-      
-
-
-   <!--<h3>I ❤ Web Development and i have interest in Data Science, AI,ML also. I have interest in learning new things.</h3>
-   -->
-
+    <audio controls
+    source src="./Resume_Record.m4a" type="" autoplay> 
+    </audio>
+    <br>
 
     <br>
      <details >
-         <summary style="color:blue" align="center">Keypoints:</summary>
+            <summary style="color:blue" align="center">Keypoints:</summary>
 👀 I'm currently pursuing my B.Tech in Information Technology at KIIT University.<br>
 ✨ I'm 5 ⭐ C++ | 3 ⭐ C | 2 ⭐ Python | at HackerRank<br>
 🌱 I’m currently learning about Front-end, Python for Data Science and ML, Blockchain.<br>
@@ -201,7 +223,7 @@ fieldset
     </fieldset>
     <br>
 
-    <fieldset>
+<fieldset>
         <legend class="s1" align="center"><h4>Contact details</h4></legend>
         <b>Mobile No. - 9883568447</b><br>
         <b>Official Mail - 2006047@kiit.ac.in</b><br>
@@ -211,7 +233,7 @@ fieldset
 
         <b><a href="https://auth.geeksforgeeks.org/user/majisubham2001/profile" style="color: green" target="_blank" rel="noopener noreferrer" >Geeksforgeeks</a>&nbsp;&nbsp;</b><br>
 
-    </fieldset>
+</fieldset>
     <br><br><br>
 </fieldset>
 
@@ -296,8 +318,5 @@ fieldset
       
     </fieldset>
         
-
-  
-   
 </body>
 </html>
